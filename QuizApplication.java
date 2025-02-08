@@ -52,8 +52,6 @@ public class QuizApplication {
         questions.add(new Question("Which of the following is not a Java feature?", Arrays.asList("Object-oriented", "Use of pointers", "Portable", "Dynamic"), 1));
         questions.add(new Question("Which keyword is used to inherit a class in Java?", Arrays.asList("this", "super", "extends", "implements"), 2));
         questions.add(new Question("Which of these is a valid keyword in Java?", Arrays.asList("interface", "string", "unsigned", "goto"), 0));
-
-        // Additional Questions (Level 0 to Pro)
         questions.add(new Question("What is the default value of a boolean in Java?", Arrays.asList("true", "false", "null", "0"), 1));
         questions.add(new Question("Which method is the entry point of a Java program?", Arrays.asList("main()", "start()", "init()", "run()"), 0));
         questions.add(new Question("Java is _________ typed language.", Arrays.asList("dynamically", "loosely", "statically", "none"), 2));
